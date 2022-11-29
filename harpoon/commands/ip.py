@@ -223,6 +223,7 @@ class CommandIp(Command):
         print("")
         if ipy.version() == 4:
             print("Censys:\t\thttps://censys.io/ipv4/%s" % ip)
+            print("Criminalip:\t\thttps://www.criminalip.io/asset/report/%s" % ip)
             print("Shodan:\t\thttps://www.shodan.io/host/%s" % ip)
             print("IP Info:\thttp://ipinfo.io/%s" % ip)
             print("BGP HE:\t\thttps://bgp.he.net/ip/%s" % ip)
