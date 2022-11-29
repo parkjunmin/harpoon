@@ -55,6 +55,7 @@ After configuration the following plugins are available within the `harpoon` com
     binaryedge          Request BinaryEdge API
     cache               Requests webpage cache from different sources
     censys              Request information from Censys database (https://censys.io/)
+    criminalip          Reqeusts Criminalip API
     certspotter         Get certificates from https://sslmate.com/certspotter
     circl               Request the CIRCL passive DNS database
     config              Configure Harpoon
